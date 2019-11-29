@@ -3,7 +3,7 @@
 echo " Wie zit er in de klas?";
 $a = readline();
 $klas = array();
-$klas = explode(',', $a);
+$klas = explode(' ', $a);
 for ($i=0; $i < $a ; $i++) {
     $klas[$a = readline()] ;
 }
